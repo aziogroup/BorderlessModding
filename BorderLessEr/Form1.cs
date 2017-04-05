@@ -79,6 +79,22 @@ namespace BorderLessEr
             }
         }
 
+        private void Form1_SizeChanged(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Minimized && checkBox3.Checked)
+            {
+                notifyIcon1.Visible = true;
+                Hide();
+            }
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            Show();
+            WindowState = FormWindowState.Normal;
+            notifyIcon1.Visible = false;
+        }
+
         /// <summary>
         /// フォーム読み込み時イベント
         /// </summary>
