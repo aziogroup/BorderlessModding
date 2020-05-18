@@ -152,6 +152,7 @@
             this.Controls.Add(this.refreshButton);
             this.Controls.Add(this.processListLabel);
             this.Controls.Add(this.processComboBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "Borderless Modding";
