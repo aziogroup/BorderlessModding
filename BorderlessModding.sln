@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.10
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderLessEr", "BorderLessEr\BorderLessEr.csproj", "{EC58E5E6-A423-4EBF-9DCE-A0DB7A2B0751}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderlessModding", "BorderlessModding\BorderlessModding.csproj", "{EC58E5E6-A423-4EBF-9DCE-A0DB7A2B0751}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AF99FB7-D71D-46A4-94EC-1A6DADEA0F3E}
 	EndGlobalSection
 EndGlobal
